@@ -1,4 +1,4 @@
-# student_info_app
+# ticket_booking_app
 
 A new Flutter project.
 

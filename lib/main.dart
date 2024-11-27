@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:student_info_app/base/bottom_nav_bar.dart';
+
+import 'base/bottom_nav_bar.dart';
+
 
 void main() {
   runApp(const MyApp());
