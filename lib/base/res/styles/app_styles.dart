@@ -6,8 +6,25 @@ class AppStyles {
   static Color primaryColor = primary;
   static Color bgColor = const Color(0xFFE3E2E6);
   static Color textColor = const Color(0xFF3b3b3b);
-  static TextStyle headLineStyle1 =
-      TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: textColor);
+  static Color ticketBlue = const Color(0xFF526799);
+  // static Color ticketOrange = const Color(value)
+
+  static TextStyle textStyle = TextStyle(
+    fontSize: 16,
+    fontWeight:  FontWeight.w500,
+    color: textColor
+  );
+
+  static TextStyle headLineStyle1 = TextStyle(
+      fontSize: 26,
+      fontWeight: FontWeight.bold,
+      color: textColor
+  );
+  static TextStyle headLineStyle2 = TextStyle(
+    fontSize: 21,
+    fontWeight: FontWeight.bold,
+    color: textColor
+  );
   static TextStyle headLineStyle3 = const TextStyle(
     fontSize: 17,
     fontWeight: FontWeight.w500,

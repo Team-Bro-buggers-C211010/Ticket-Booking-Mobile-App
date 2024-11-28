@@ -1,5 +1,7 @@
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/material.dart';
+import 'package:ticket_booking_app/base/widgets/app_double_text.dart';
+import 'package:ticket_booking_app/base/widgets/ticket_view.dart';
 
 import '../base/res/media.dart';
 import '../base/res/styles/app_styles.dart';
@@ -74,10 +76,13 @@ class _HomeScreenState extends State<HomeScreen> {
                       Text("Search")
                     ],
                   ),
-                )
+                ),
+                const SizedBox(height: 40,),
+                const AppDoubleText(bigText: 'Upcoming Flights', smallText: 'View all',),
+                const TicketView()
               ],
             ),
-          )
+          ),
         ],
       ),
     );
